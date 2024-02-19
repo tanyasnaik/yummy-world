@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#myPage"><img src="/images/logo.png" class="logo"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#features">FEATURES</a></li>
+          <li><a href="#portfolio">SPECIALITIES</a></li>
+          <li><a href="#myCarousel">TESTIMONIALS</a></li>
+          <li><a href="#order">ORDER NOW</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1>Yummy World</h1>
+    <p>Lip Smackingly Delicious!</p>
+  </div>
+
+  <!-- Container (About Section) -->
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>About Yummy World</h2><br>
+        <h4>You love ice cream and so do we!! We are pioneers in this field and have been making ice creams since 1985.
+          Thats a long time! Our unique flavour combos and natural ingredients will keep you coming back for more!</h4>
+        <br>
+        <p>Our stores are located all over Chicago. If you have visited us, you will know what a wonderful ambience we
+          have! Not only can you visit us with family and friends, you can also reach out to us for bulk and party
+          orders. We will be happy to serve you!</p>
+        <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      </div>
+      <div class="col-sm-4">
+        <img class="img-responsive about-img" src="images/ice2.jpeg">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Container (Services Section) -->
+  <div id="features" class="container-fluid text-center">
+    <h2>FEATURES</h2>
+    <h4>What we offer</h4>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <img src="images/icon1.png" class="logo-small">
+        <h4>UNIQUE FLAVOURS</h4>
+        <p>Deliciously lipsmacking</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/icon2.png" class="logo-small">
+        <h4>NATURAL INGREDIENTS</h4>
+        <p>The best of nature</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/icon3.png" class="logo-small">
+        <h4>100% HYGIENE</h4>
+        <p>No compromise on quality and hygiene</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <img src="images/icon4.png" class="logo-small">
+        <h4>DOOR STEP DELIVERY</h4>
+        <p>Enjoy our flavours right from home!</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/icon5.png" class="logo-small"></span>
+        <h4>SURPRISE!</h4>
+        <p>Surprise flavour of the day!</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/icon6.png" class="logo-small">
+        <h4 style="color:#303030;">PARTY ORDERS</h4>
+        <p>Order in bulk for your party!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Portfolio Section) -->
+  <div id="portfolio" class="container-fluid text-center bg-grey">
+    <h2>SPECIALITIES</h2><br>
+    <h4>Our lipsmacking creations!</h4>
+    <div class="row text-center slideanim">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="images/ice3.jpeg" width="400" height="300">
+          <p><strong>Nutty Delight</strong></p>
+          <p>Yes, you will go nuts!</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="images/ice4.jpeg" width="400" height="300">
+          <p><strong>Fruity Fresh</strong></p>
+          <p>For the fruit lover in you.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="images/ice5.jpeg" width="400" height="300">
+          <p><strong>Choco Blast</strong></p>
+          <p>Now, who doesn't love chocolate?</p>
+        </div>
+      </div>
+    </div><br>
+
+
+    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+      <h2>What our customers say</h2>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <h4>"One of the best ice creams I have had!"</h4>
+        </div>
+        <div class="item">
+          <h4>"One word... WOW!!"</h4>
+        </div>
+        <div class="item">
+          <h4>"Amazing flavours and a lot of healthy options too!"
+          </h4>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Container (Pricing Section) -->
+  <div id="order" class="container-fluid">
+    <div class="text-center">
+      <h2>ORDER NOW!</h2>
+      <h4>Choose a pack that works for you</h4>
+    </div>
+    <div class="row slideanim">
+      <div class="col-sm-4 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Single scoop</h1>
+          </div>
+          <div class="panel-body">
+            <img src="images/ice6.jpeg" class="img-responsive">
+          </div>
+          <div class="panel-footer">
+            <h3>$19</h3>
+            <button class="btn btn-lg">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Double scoop</h1>
+          </div>
+          <div class="panel-body">
+            <img src="images/ice7.jpeg" class="img-responsive">
+          </div>
+          <div class="panel-footer">
+            <h3>$34</h3>
+
+            <button class="btn btn-lg">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Sundaes</h1>
+          </div>
+          <div class="panel-body">
+            <img src="images/ice8.jpeg" class="img-responsive">
+          </div>
+          <div class="panel-footer">
+            <h3>Customize for price!</h3>
+            <button class="btn btn-lg">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <form id="contactform" action="https://formsubmit.io/send/tanyasnaik@gmail.com" method="POST">
+    <div id="contact" class="container-fluid bg-grey">
+      <h2 class="text-center">CONTACT</h2>
+      <div class="row">
+        <div class="col-sm-5">
+          <p>Contact us and we'll get back to you within 24 hours.</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+          <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+          <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+        </div>
+        <div class="col-sm-7 slideanim">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image of location/map -->
+    <br><br>
+  </form>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.7749179518!2d77.30126246150182!3d12.954459536902316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15c191f2d31d%3A0x8e110b99df2fbe22!2sLalbagh%20Botanical%20Garden!5e0!3m2!1sen!2sin!4v1704979436955!5m2!1sen!2sin"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Webpage Created By <a href="https://www.sanketana.com" title="Visit w3schools">www.sanketana.com</a></p>
+  </footer>
+
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+
+      $(window).scroll(function () {
+        $(".slideanim").each(function () {
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("slide");
+          }
+        });
+      });
+    })
+  </script>
+
+</body>
+
+</html>
